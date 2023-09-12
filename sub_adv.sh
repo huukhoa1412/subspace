@@ -77,7 +77,7 @@ Description=Subspace Farmer
 
     [Service]
 User=$USER
-ExecStart=subspace-farmer farm --reward-address $ADDRESS path=/root/subspace_adv,size=$PLOTSIZE
+ExecStart=subspace-farmer farm --reward-address $ADDRESS path=/mnt/blockstorage/subspace_adv,size=$PLOTSIZE
 Restart=always
 RestartSec=10
 LimitNOFILE=10000
