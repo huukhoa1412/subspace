@@ -31,8 +31,8 @@ sudo curl https://sh.rustup.rs -sSf | sh -s -- -y
 source $HOME/.cargo/env
 sleep 3
 sudo apt install wget -y &> /dev/null
-cd $HOME
-mkdir /mnt/blockstorage/subspace_adv
+cd /mnt/blockstorage
+mkdir subspace_adv
 #download binary
 wget https://github.com/subspace/subspace/releases/download/${version}/subspace-node-ubuntu-x86_64-skylake-${version} &> /dev/null
 wget https://github.com/subspace/subspace/releases/download/${version}/subspace-farmer-ubuntu-x86_64-skylake-${version} &> /dev/null
